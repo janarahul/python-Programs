@@ -1,3 +1,5 @@
+#This programs scraps vtu results website and extracts results
+
 import requests
 from decimal import Decimal
 from bs4 import BeautifulSoup
@@ -98,7 +100,7 @@ print(b)
 print(c)
 import plotly.plotly as py
 import plotly.graph_objs as go
-py.sign_in('janarahul', 'jox550n3du')
+py.sign_in('username', 'password')
 
 data = [go.Bar(
             x=['CSE-A', 'CSE-B', 'CSE-C'],
