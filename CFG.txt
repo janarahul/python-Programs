@@ -1,0 +1,26 @@
+S: NP VP
+S: VP
+NP: Det Nominal
+NP: Noun
+Nominal: Noun
+Nominal: Noun Nominal
+VP: Verb NP
+VP: Verb
+PP: preposition NP
+Det: this
+Det: that
+Det: a
+Det: the
+Verb: sleeps
+Verb: sings
+Verb: open
+Verb: paint
+preposition: from
+preposition: with
+preposition: on
+preposition: to
+pronoun: she
+pronoun: he
+pronoun: they
+Noun: door
+Noun: redcolor
